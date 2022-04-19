@@ -1,0 +1,13 @@
+template: external-service-zarf
+deployments:
+  production:
+    target: production
+    clusters: 1
+    values:
+      fqdn: demo-app.io
+      image: coraldemo.azurecr.io/noelbundick-msft/coral-demo-java-app:main
+      app: java-demo
+      cpu: 1
+      memory: 256M
+      replicas: 2
+      port: 5000
