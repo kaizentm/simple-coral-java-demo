@@ -5,7 +5,7 @@ deployments:
     clusters: 1
     values:
       fqdn: demo-app.io
-      image: coraldemo.azurecr.io/noelbundick-msft/coral-demo-java-app:main
+      image: coraldemofd424c.azurecr.io/noelbundick-msft/coral-demo-java-app:main
       app: java-demo
       cpu: 1
       memory: 256M
