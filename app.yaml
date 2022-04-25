@@ -1,4 +1,4 @@
-template: external-service-zarf
+template: external-service
 deployments:
   production:
     target: production
